@@ -1,0 +1,232 @@
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2022 by anonymous (http://jsbin.com/qeceyexupe/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+  <head>
+    <title>Plain Static Web Page</title>
+  <style id="jsbin-css">
+#head{
+   border: 2px solid #1A237E ;
+   height: 20px;
+   background-color:#1A237E ;
+   margin-bottom:5px;
+}
+
+#head2 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  border: 1px solid black;
+  padding: 10px;
+  height: 100px;
+  background-color:black;
+}
+#split{
+  margin-left:auto;
+}
+
+#main {
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+  height: 800px;
+}
+.MainLeft{
+  width:50%;
+  border: 1px solid #1A237E;
+  background-color:#1A237E;
+  align-items:flex-start;
+} 
+.left1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-radius:10px;
+  height:80px;
+  margin:120px 10px 10px 10px;
+  padding:10px;
+  background-color:black;
+}
+.left2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-radius:10px;
+  height:80px;
+  margin:10px;
+  padding:5px;
+  background-color:black;
+}
+.icons{
+  height:78px;
+}
+.icon2{
+  height:50px;
+  margin:7px;
+}
+.fontMainLeft{
+  color:#E1F5FE;
+  margin:27px 10px 10px 5px;
+  font-family:sans-serif;
+  font-size:18px;
+  text-align: center;
+}
+.fontMainRight{
+  color:#E1F5FE;
+  margin:9px 10px 0px 5px;
+  border: 1px solid #0D47A1;
+  padding:9px;
+  font-family:sans-serif;
+  font-size:15px;
+  border-radius:10px;
+}
+.MainMiddle{
+  background-color:#B3E5FC;
+  flex-direction:column;
+  overflow-y:auto;
+}
+.middle1{
+  border: 1px solid #0D47A1;
+  height:70px;
+  background-color:#0D47A1;
+}
+.imgCenter{
+  margin-left: auto;
+  margin-right: auto;
+  width:100%;
+  height: 300;
+}
+ .fontCenter{
+  width:80%;
+  text-align:left;
+  margin:20px;
+  font-family:Garamond;
+  color:#1E88E5;
+}
+.MainRight{
+  width:50%;
+  border: 1px solid #1A237E;
+  background-color:#1A237E;
+  align-items:flex-end;
+}
+.right1{
+  display:flex;
+  flex-direction:column;
+  border-radius:10px;
+  height:180px;
+  margin:120px 10px 10px 10px;
+  padding:10px;
+  background-color:black;
+}
+.right2{
+  display:flex;
+  flex-direction:column;
+  border-radius:10px;
+  height:160px;
+  margin:5px 10px 30px 10px;
+  padding:10px;
+  background-color:black;
+}
+.icons3{
+  height:100px;
+  margin:1px 25px 1px 25px;
+}
+
+#Foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  height: 200px;
+  background-color:#0D47A1;
+  overflow:auto;
+}
+.foot1{
+  display: flex;
+  width:50%;
+  margin:20px 40px 20px 40px;
+  flex-direction:column;
+  border-radius:10px;
+  border: 1px solid #0D47A1;
+  text-align:center;
+  background-color:black;
+}
+.link{
+  padding:20px 20px;
+  font-family:Garamond;
+  color:#FFECB3;
+  text-align:center;
+}
+
+#foot2{
+  text-align:center;
+  background-color:#0D47A1;
+}
+
+
+</style>
+</head>
+  <body>
+    <div id="head"></div>
+     
+    <div id="head2">
+     <img class="icons3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf7AjKdtYYj2SrMtvSMN-maYFctr4fSV76-A&usqp=CAU"/>
+     <p class="fontMainLeft"><i><u><strong> Current <br> Currency</strong></u></i></p>
+     <img class="icons3" src="https://cdn.create.vista.com/api/media/small/471127472/stock-vector-bank-gold-plated-metalic-icon"/>
+       <p id="split" class="fontMainLeft">Money is your time,<br>Time is our money</p>
+    </div>
+    
+    <div id="main">
+      
+      <div class="MainLeft"> 
+        <div class="left1"><img class="icons" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmh1t6WUWOSMQYuMZ-C1YgxRgQP90yfmDnqA&usqp=CAU"/><p class="fontMainLeft">12.23</p></div>
+        <div class="left2"><img class="icon2" src="https://i.borsagundem.com/static/photos/article/fg-normal/187355.jpg?v=1663677704"/><p class="fontMainLeft">12.23</p></div>
+        <div class="left2"><img class="icons" src="https://media.istockphoto.com/vectors/futuristic-golden-bitcoin-digital-currency-computer-circuit-board-vector-id1299615596?k=20&m=1299615596&s=612x612&w=0&h=1gdFjyFsd9VWObs0VE-iic41Az3uzfuYVRTNEj_4G2I="/><p class="fontMainLeft">12.23</p></div>
+        <div class="left2"><img class="icons" src="https://cdn.create.vista.com/api/media/small/471102436/stock-vector-bankrupt-gold-plated-metalic-icon"/><p class="fontMainLeft">12.23</p></div>
+        <div class="left2"><img class="icons" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSUo2zNz2aI2Cq5EL0rTb3hLbN7O7p6VpWpX6ULd1zRwm__i4xlb9PpT9X5jXG45WZvCI&usqp=CAU"/><p class="fontMainLeft">12.23</p></div>
+        <div class="left2"><img class="icons" src="https://cdn.create.vista.com/api/media/medium/471022136/stock-vector-adjust-gold-plated-metalic-icon?token="/><p class="fontMainLeft">12.23</p></div>
+      </div>
+      
+      <div class="MainMiddle">
+        <div class="middle1"><p class="fontMainLeft"><strong>WELCOME YOUR BANK</strong></p></div>
+        <img class="imgCenter" src="https://nairametrics.com/wp-content/uploads/2022/02/The-future-of-banking.jpg?w=1000"/>
+        <h4 class="fontCenter">WHAT IS BANKING</h4>
+        <p class="fontCenter">As a value network, BaaS aims at seamlessly integrating as many service providers as needed into one comprehensive process to complete a financial service in an effective and timely manner. It is implied that a BaaS would include certain features in addition to providing a financial service.</p>
+        <h4 class="fontCenter">WHAT IS BANKING</h4>
+        <p class="fontCenter">As a value network, BaaS aims at seamlessly integrating as many service providers as needed into one comprehensive process to complete a financial service in an effective and timely manner. It is implied that a BaaS would include certain features in addition to providing a financial service.</p>
+      </div>
+      
+      <div class="MainRight">
+        <div class="right1">
+          <img class="icons3" src="https://cdn.create.vista.com/api/media/small/471145006/stock-vector-assistance-gold-plated-metalic-icon"/>
+          <p class="fontMainRight">Name<br>Account Num.</p></div>
+        <div class="right2">
+          <p class="fontMainRight">Balance: 13.000TL</p>
+          <img class="icons3" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTc1qC4mNcnfeXnXP_c4DhP3OgTH7Bib-T_FbpYv8QT7YEZY1M8"/></div>
+        <p class="fontMainLeft">Last Activity</p> 
+        <div class="right2">
+          <p class="fontMainRight">Date1</p>
+          <p class="fontMainRight">Date2</p>
+          <p class="fontMainRight">Date3</p></div>
+      </div>
+    </div>
+    
+    <div id="Foot">
+      <div class="foot1"><a href="http://www.mu.edu.tr/tr" class="link"> CONTACT1 </a>
+      <a href="http://www.mu.edu.tr/tr" class="link"> CONTACT1 </a></div>
+      <div class="foot1"><a href="http://www.mu.edu.tr/tr" class="link"> CONTACT2 </a>
+      <a href="http://www.mu.edu.tr/tr" class="link"> CONTACT2 </a></div>
+      <div class="foot1"><a href="http://www.mu.edu.tr/tr" class="link"> CONTACT3 </a>
+      <a href="http://www.mu.edu.tr/tr" class="link"> CONTACT2 </a></div>
+    </div>
+    
+    <div id="foot2"><p>@CENG-BANK COPY RİGHT</p></div>
+  
+  </body>
+</html>
